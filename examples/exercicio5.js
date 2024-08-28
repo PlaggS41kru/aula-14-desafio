@@ -23,5 +23,10 @@ function funcao(object){
 funcao(carro)
 
 function verificar(veri){
-    if 
+    if (!carro.preco) {
+        carro.preco = 10000;
+        console.log(`Propriedade preco adicionada com valor ${carro.preco}`);
+    } else {
+        console.log(`Propriedade preco com valor ${carro.preco}`);
+    }
 }

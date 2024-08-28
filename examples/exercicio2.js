@@ -9,5 +9,8 @@ const carro= {
     ano:"2000",
 }
 
-carro.ano= ''
+carro.ano= "2023";
+carro.cor= "azul";
+
+console.log(carro)
 
